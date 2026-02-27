@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stitch & Style | Sign Up</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Favicon -->
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✂️</text></svg>">
+</head>
+
+<body>
+
+    <!-- Back to Home Button float -->
+    <div class="position-absolute top-0 start-0 m-4 z-3">
+        <a href="index.html"
+            class="btn btn-light border-0 bg-surface shadow-sm rounded-pill d-flex align-items-center justify-content-center px-4 py-2 gap-2 text-decoration-none fw-bold"
+            style="color: var(--fs-text);">
+            <i class="bi bi-arrow-left fs-5"></i>
+            <span>Back to Home</span>
+        </a>
+    </div>
+
+    <!-- Theme Toggle -->
+    <div class="position-absolute top-0 end-0 m-4 z-3 d-flex align-items-center gap-3">
+        <button
+            class="btn btn-light bg-surface shadow-sm border-0 rounded-circle d-flex align-items-center justify-content-center"
+            id="themeToggle" style="width: 45px; height: 45px;">
+            <i class="bi bi-moon fs-5 text-dark" id="themeIcon"></i>
+        </button>
+    </div>
+
+    <div class="auth-wrapper py-5">
+        <div class="auth-card custom-card card border-0 my-auto">
+            <div class="text-center mb-4">
+                <div class="bg-primary-custom text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3 shadow"
+                    style="width: 60px; height: 60px;">
+                    <i class="bi bi-person-plus fs-3"></i>
+                </div>
+                <h3 class="fw-bold">Create an Account</h3>
+                <p class="text-muted small">Join us to explore premium fabrics and workshops.</p>
+            </div>
+
+            <form action="dashboard.html">
+                <div class="row g-3 mb-3">
+                    <div class="col-sm-6">
+                        <label class="form-label small fw-bold text-muted">First Name</label>
+                        <input type="text" class="form-control" placeholder="John" required>
+                    </div>
+                    <div class="col-sm-6">
+                        <label class="form-label small fw-bold text-muted">Last Name</label>
+                        <input type="text" class="form-control" placeholder="Doe" required>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label small fw-bold text-muted">Email address</label>
+                    <div class="input-group">
+                        <span class="input-group-text bg-transparent border-end-0 text-muted"><i
+                                class="bi bi-envelope"></i></span>
+                        <input type="email" class="form-control border-start-0 ps-0" placeholder="name@example.com"
+                            required>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label small fw-bold text-muted">Password</label>
+                    <div class="input-group">
+                        <span class="input-group-text bg-transparent border-end-0 text-muted"><i
+                                class="bi bi-lock"></i></span>
+                        <input type="password" class="form-control border-start-0 ps-0" placeholder="Create a password"
+                            required>
+                    </div>
+                </div>
+                <div class="mb-4 form-check">
+                    <input type="checkbox" class="form-check-input" id="terms" required>
+                    <label class="form-check-label small text-muted" for="terms">I agree to the <a href="#"
+                            class="text-primary-custom text-decoration-none">Terms and Conditions</a></label>
+                </div>
+                <button type="submit" class="btn btn-primary-custom w-100 mb-3 shadow-sm py-2">Create Account</button>
+            </form>
+
+            <div class="position-relative mb-4 mt-2 text-center">
+                <hr class="text-muted opacity-25">
+                <span class="position-absolute top-50 start-50 translate-middle px-3 bg-surface text-muted small">Or
+                    sign up with</span>
+            </div>
+
+            <div class="d-flex gap-2 justify-content-center mb-4">
+                <button
+                    class="btn btn-outline-secondary flex-grow-1 d-flex gap-2 justify-content-center align-items-center bg-transparent">
+                    <i class="bi bi-google text-danger"></i> Google
+                </button>
+                <button
+                    class="btn btn-outline-secondary flex-grow-1 d-flex gap-2 justify-content-center align-items-center bg-transparent">
+                    <i class="bi bi-facebook text-primary"></i> Facebook
+                </button>
+            </div>
+
+            <p class="text-center small text-muted mb-0">Already have an account? <a href="login.html"
+                    class="text-primary-custom text-decoration-none fw-bold">Sign in</a></p>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
