@@ -31,8 +31,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="shop.html">Shop</a></li>
+                    <li class="nav-item"><a class="nav-link" href="home1.html">Home 1</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="home2.html">Home 2</a></li>
+                    <li class="nav-item"><a class="nav-link" href="shop.html">Shop</a></li>
                     <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
                     <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
@@ -65,7 +66,8 @@
         </div>
         <div class="offcanvas-body bg-surface">
             <ul class="navbar-nav mb-4">
-                <li class="nav-item"><a class="nav-link fs-5 mb-2" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link fs-5 mb-2" href="home1.html">Home 1</a></li>
+                <li class="nav-item"><a class="nav-link active fs-5 mb-2" href="home2.html">Home 2</a></li>
                 <li class="nav-item"><a class="nav-link fs-5 mb-2" href="shop.html">Shop</a></li>
                 <li class="nav-item"><a class="nav-link fs-5 mb-2" href="services.html">Services</a></li>
                 <li class="nav-item"><a class="nav-link fs-5 mb-2" href="about.html">About</a></li>
@@ -199,44 +201,60 @@
         </div>
     </section>
 
-    <!-- Content 2: Store Highlights -->
-    <section class="py-5 bg-surface">
+    <!-- Content 2: Student & Community Showcase -->
+    <section class="py-5 bg-surface overflow-hidden">
         <div class="container py-4">
             <div class="row align-items-center g-5">
-                <div class="col-lg-6">
-                    <h2 class="fw-bold mb-4">Quality You Can Trust</h2>
-                    <p class="text-muted mb-4">We source our fabrics directly from top mills worldwide, ensuring vibrant
-                        colors, durability, and perfect drape for your garments.</p>
-                    <div class="row g-4">
-                        <div class="col-6">
-                            <h3 class="fw-bold text-primary-custom">10k+</h3>
-                            <p class="text-muted small">Yards Sold</p>
+                <div class="col-lg-5">
+                    <span
+                        class="badge bg-tertiary-custom bg-opacity-10 text-tertiary mb-3 p-2 px-3 rounded-pill fw-bold"
+                        style="color: var(--fs-tertiary);">Community First</span>
+                    <h2 class="fw-bold mb-4">Masterpieces by Our Students</h2>
+                    <p class="text-muted mb-4">From first-time stitchers to advanced designers, see what our community
+                        is creating in our weekly workshops. Join the gallery and get featured!</p>
+                    <div class="d-flex flex-column gap-3 mb-4">
+                        <div class="d-flex align-items-center gap-3">
+                            <i class="bi bi-check-circle-fill text-success fs-4"></i>
+                            <span class="fw-bold">Free access to studio tools</span>
                         </div>
-                        <div class="col-6">
-                            <h3 class="fw-bold text-secondary-custom">500+</h3>
-                            <p class="text-muted small">Unique Patterns</p>
+                        <div class="d-flex align-items-center gap-3">
+                            <i class="bi bi-check-circle-fill text-success fs-4"></i>
+                            <span class="fw-bold">Weekly design critique sessions</span>
                         </div>
-                        <div class="col-6">
-                            <h3 class="fw-bold text-warning">50+</h3>
-                            <p class="text-muted small">Expert Instructors</p>
-                        </div>
-                        <div class="col-6">
-                            <h3 class="fw-bold text-primary-custom">24/7</h3>
-                            <p class="text-muted small">Community Support</p>
+                        <div class="d-flex align-items-center gap-3">
+                            <i class="bi bi-check-circle-fill text-success fs-4"></i>
+                            <span class="fw-bold">Exclusive student material discounts</span>
                         </div>
                     </div>
+                    <a href="services.html" class="btn btn-primary-custom btn-lg">Join the Academy</a>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-7">
                     <div class="row g-3">
                         <div class="col-6">
-                            <img src="https://loremflickr.com/400/500/thread" alt="Thread"
-                                class="img-fluid rounded-4 shadow-sm h-100 object-fit-cover">
+                            <div class="custom-card card border-0 shadow-sm overflow-hidden h-100 rounded-4">
+                                <img src="https://loremflickr.com/500/600/dress,fashion"
+                                    class="card-img-top object-fit-cover h-100" alt="Student Work">
+                                <div
+                                    class="position-absolute bottom-0 start-0 w-100 p-3 bg-dark bg-opacity-50 text-white">
+                                    <p class="small mb-0 fw-bold">Sarah's Evening Gown</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-6 d-flex flex-column gap-3">
-                            <img src="https://loremflickr.com/400/250/fabric" alt="Fabric"
-                                class="img-fluid rounded-4 shadow-sm" style="height: 150px; object-fit: cover;">
-                            <img src="https://loremflickr.com/400/250/sewing" alt="Machine"
-                                class="img-fluid rounded-4 shadow-sm flex-grow-1" style="object-fit: cover;">
+                        <div class="col-6">
+                            <div class="row g-3 h-100">
+                                <div class="col-12 h-50">
+                                    <div class="custom-card card border-0 shadow-sm overflow-hidden h-100 rounded-4">
+                                        <img src="https://loremflickr.com/500/300/embroidery,art"
+                                            class="card-img-top object-fit-cover h-100" alt="Student Work">
+                                    </div>
+                                </div>
+                                <div class="col-12 h-50">
+                                    <div class="custom-card card border-0 shadow-sm overflow-hidden h-100 rounded-4">
+                                        <img src="https://loremflickr.com/500/300/quilt,sewing"
+                                            class="card-img-top object-fit-cover h-100" alt="Student Work">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -392,8 +410,8 @@
                 </div>
                 <div class="col-lg-2 col-md-6">
                     <h5 class="footer-title">Company</h5>
-                    <a href="index.html" class="footer-link">Home</a>
-                    <a href="shop.html" class="footer-link">Shop</a>
+                    <a href="home1.html" class="footer-link">Home 1</a>
+                    <a href="home2.html" class="footer-link">Home 2</a>
                     <a href="services.html" class="footer-link">Our Services</a>
                     <a href="dashboard.html" class="footer-link">User Dashboard</a>
                     <a href="about.html" class="footer-link">About Us</a>
