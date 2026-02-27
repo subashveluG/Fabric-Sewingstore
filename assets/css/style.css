@@ -161,6 +161,8 @@ h6 {
   border-radius: 15px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s ease;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
   overflow: hidden;
 }
 
@@ -247,6 +249,38 @@ h6 {
 #backToTop:hover {
   background-color: var(--fs-secondary);
   color: var(--fs-btn-text);
+}
+
+/* Brand Icons Section */
+.brand-link {
+  transition: all 0.3s ease;
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+.brand-link:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.brand-behance {
+  color: #1769ff !important;
+}
+
+.brand-dribbble {
+  color: #ea4c89 !important;
+}
+
+.brand-slack {
+  color: #4a154b !important;
+}
+
+.brand-meta {
+  color: #0668E1 !important;
+}
+
+.brand-google {
+  color: #4285F4 !important;
 }
 
 /* Dashboard Sidebar */
